@@ -47,12 +47,6 @@ Price/Earnings (P/E) – Valuation multiple
 Market Cap – Total market capitalization (size indicator)
 
 * Any filtering, cleaning, or transformation steps
-1. Remove duplicate company entries and non-numeric placeholders (e.g., ‘—’ or ‘N/A’).
-Convert financial columns to numeric format (float).
-Handle missing values using median imputation or exclusion as appropriate.
-Log-transform heavily skewed variables such as Revenue and Market Cap to moderate skewness.
-Create derived variables such as Profit Margin = Net Income / Revenue if not already provided.
-Filter for relevant sectors with adequate sample size (≥ 20 companies) to ensure reliable inference.
 
 ## 4. Methods
 
