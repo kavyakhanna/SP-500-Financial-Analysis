@@ -1,4 +1,4 @@
-# Project Title
+# SP 500 Financial Analysis
 
 ## 1. Research Question
 
