@@ -1,9 +1,9 @@
-# Project Title
+# SP 500 Financial Analysis
 
 ## 1. Research Question
 
 What are you investigating, and why does it matter?
-1.This project investigates whether certain sectors within the S&P 500 — specifically Technology and Financials — differ significantly in their average operational profitability (EBITDA) and overall financial performance. The goal is to determine if technology companies truly outperform financial companies in terms of how efficiently they generate profits from their operations.
+1.This project investigates whether certain sectors within the S&P 500 — specifically Telecommunication — differ significantly in average operational profitability (EBITDA) and overall financial performance. The goal is to determine if Telecommunication companies truly outperform other companies in terms of how efficiently they generate profits from their operations.
 
 2. This project helps us understand how different business sectors perform financially. By using methods like bootstrapping and permutation tests, we can go beyond basic summaries and measure how confident we are in the results. These insights can help investors and analysts make smarter, data-driven decisions and demonstrate how statistical testing can be applied to real-world financial data.
 
@@ -11,10 +11,8 @@ What are you investigating, and why does it matter?
 
 State your null and alternative hypotheses clearly and succinctly.
 
-1. Null Hypothesis (H₀):
-The mean EBITDA of Technology companies is equal to the mean EBITDA of Financial companies.
-2. Alternative Hypothesis (H₁):
-The mean EBITDA of Technology companies differs from that of Financial companies.
+1. Null Hypothesis: There is no difference in EBIDTA mean for telecommunication companies and mean EBIDTA for companies in all sectors.
+2. Alternative Hypothesis: There is a difference in EBIDTA mean for telecommunication companies and mean EBIDTA for companies in all sectors.
 
 ## 3. Data Description
 
@@ -58,8 +56,8 @@ Market Cap – Total market capitalization (size indicator)
 
 Summarize how you analyzed the data:
 
-* The test statistic for your permutation test
-* How you simulated or resampled under the null hypothesis
+* The test statistic for your permutation test : Mean
+* How you simulated or resampled under the null hypothesis :
 * The metric(s) for which you created bootstrap confidence intervals
 * Why the CLT does not apply to at least one metric
 
