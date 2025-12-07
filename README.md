@@ -11,8 +11,8 @@ What are you investigating, and why does it matter?
 
 State your null and alternative hypotheses clearly and succinctly.
 
-1. Null Hypothesis: There is no difference in EBIDTA mean for telecommunication companies and mean EBIDTA for companies in all sectors.
-2. Alternative Hypothesis: There is a difference in EBIDTA mean for telecommunication companies and mean EBIDTA for companies in all sectors.
+1. Null Hypothesis: There is no difference in EBITDA mean for telecommunication companies and mean EBITDA for companies in all sectors.
+2. Alternative Hypothesis: There is a difference in EBITDA mean for telecommunication companies and mean EBITDA for companies in all sectors.
 
 ## 3. Data Description
 
@@ -50,7 +50,7 @@ Market Cap – Total market capitalization (size indicator)
 * Any filtering, cleaning, or transformation steps
 1. Dropped Price/Book column 
 2. Handle missing values for Price/Earning with median 
-3. change the format for float with 2 decimal places for better readilibility
+3. change the format for float with 2 decimal places for better readability
 
 ## 4. Methods
 
