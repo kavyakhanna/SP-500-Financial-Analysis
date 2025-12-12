@@ -74,11 +74,11 @@ Discuss your resampling results:
 
 * How many resamples you used: Both the permutation test and the bootstrap analysis used 10,000 resamples
 * What the bootstrap or randomization distributions looked like: The permutation distribution of mean EBITDA differences centred around zero, representing no difference. But the observed difference lay far in the tail of the distribution, indicating the statistically significant effect. While the bootstrap distribution of median P/E differences was roughly symmetric and centered near zero, suggesting no difference between the top-20 and remaining non-telecom companies.
-* How you interpret the interval estimates
+* How you interpret the interval estimates : The 95% bootstrap confidence interval includes zero which means difference is not stastically significant. Whereas the permutation test for mean EBITDA showed a stastically result confirming that telecom companies profit more than non-telecom.
 
 ## 7. Limitations
 
-Briefly note any limitations in data, assumptions, or methods, including sources of bias or missing data.
+Briefly note any limitations in data, assumptions, or methods, including sources of bias or missing data : 
 The dataset represents a single snapshot of S&P 500 companies, which may not capture year-to-year financial variability. Another limitation would be the presence of extreme outliers which can skew the data and overall results. The analysis assumes that missing values imputed or dropped do not bias the results, but this cannot be fully guaranteed.
 
 ## 8. References
