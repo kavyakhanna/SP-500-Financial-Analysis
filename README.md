@@ -89,5 +89,4 @@ Tools & libraries : Python 3.11, Pandas, NumPy, Matplotlib
 Statistical Methods: Bootstrapping and Permutation Testing for non-parametric inference
 Course Reference: SEIS 631 – Data Preparation & Analysis (University of St. Thomas, Fall 2025)
 
-**Reminder:** Your README should be clear enough that someone unfamiliar with your work could understand what you studied, how you analyzed it, and what you found.
 
